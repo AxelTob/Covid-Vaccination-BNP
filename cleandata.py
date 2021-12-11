@@ -3,6 +3,8 @@ import pandas as pd
 # Note . Download directly from website instead
 
 """ GDP data"""
+# source : https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+
 df = pd.read_csv('PPPGDP.csv')
 # filter GDP data. 
 # For country ISO code and latest GDP
